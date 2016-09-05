@@ -1,31 +1,37 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: pygments
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
-title: dbyll
+disqus: kbyte.io
+google_analytics: kbyte.io
+title: Christian Fibich
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: kbyte.io
 
-description: Stylish Jekyll Theme
+description: Christian Fibich
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  name: Christian Fibich
+  bio: Electronics Enthusiast, Hacker, Retro Hardware Freak, History Nerd, Runner, Urban Explorer
+  workplace: FH Technikum Wien
+
+  professional:
+    github: cfib
+    bitbucket: cfibich
+    email: fibich@technikum-wien.at
+    uni: http://embsys.technikum-wien.at
+
+  private:
+    bitbucket: cfib90
+    email: christian.fibich+kbyteio@gmail.com
+    twitter: _stderr
+    linkedin: cfibich
+    email_md5: 8c4897ea4cea56991966ce562f2b505b
 
 rss_path: feed.xml
 categories_path: categories.html
@@ -37,4 +43,4 @@ tags_path: tags.html
 BASE_PATH:
 
 gems:
-  - jekyll-paginate
+
