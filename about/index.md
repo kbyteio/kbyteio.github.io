@@ -3,4 +3,4 @@ layout: page
 tagline:
 ---
 
-Bla
+Some text about me
